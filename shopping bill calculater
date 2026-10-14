@@ -1,0 +1,6 @@
+a = float(input("Enter first product price: "))
+b = float(input("Enter second product price: "))
+
+print("Total Bill:", a + b)
+print("Higher Price:", max(a, b))
+print("Lower Price:", min(a, b))
