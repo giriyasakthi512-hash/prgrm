@@ -1,0 +1,16 @@
+a = int(input())
+l = int(input())
+b = int(input())
+r = int(input())
+B = int(input())
+h = int(input())
+
+square = a * a
+rectangle = l * b
+circle = 3.14 * r * r
+triangle = 0.5 * B * h
+
+print("Area of Square=" + str(square))
+print("Area of Rectangle=" + str(rectangle))
+print("Area of Circle={:.2f}".format(circle))
+print("Area of Triangle=" + str(int(triangle) if triangle.is_integer() else triangle))a = int(input()
