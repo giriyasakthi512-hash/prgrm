@@ -1,0 +1,4 @@
+s = input()
+has_letter = any(c.isalpha() for c in s)
+has_number = any(c.isdigit() for c in s)
+print(str(has_letter and has_number).lower())
