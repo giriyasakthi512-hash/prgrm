@@ -1,0 +1,17 @@
+a = int(input())
+l = int(input())
+w = int(input())
+r = int(input())
+side1 = int(input())
+side2 = int(input())
+base = int(input())
+
+square = 4 * a
+rectangle = 2 * (l + w)
+circle = 2 * 3.14 * r
+triangle = side1 + side2 + base
+
+print(square)
+print(rectangle)
+print(f"{circle:.2f}")
+print(triangle)
