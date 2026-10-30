@@ -1,0 +1,3 @@
+s = input()
+word = input()
+print(str(word in s).lower())
