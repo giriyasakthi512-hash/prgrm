@@ -1,0 +1,7 @@
+s = input()
+vowels = "aeiouAEIOU"
+
+for ch in vowels:
+    s = s.replace(ch, "")
+
+print(s)
