@@ -1,0 +1,13 @@
+age = int(input())
+distance = int(input())
+
+standard_fare = distance * 5
+
+if age < 12:
+    fare = standard_fare * 0.50
+elif age <= 59:
+    fare = standard_fare
+else:
+    fare = standard_fare * 0.75
+
+print(int(fare) if fare.is_integer() else fare)
